@@ -57,7 +57,7 @@ rowCollapse();
 
 
 let meteorBtn = document.querySelector('#destroy-all');
-meteorBtn.addEventListener('click', function(event){
+meteorBtn.addEventListener('click', function(){
     removeAll(arr1,arr2,arr3);
 });
 
